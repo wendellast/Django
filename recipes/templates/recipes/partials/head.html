@@ -91,6 +91,7 @@
       body {
         font-size: 1.6rem;
         font-family: var(--font-primary);
+        background-color: var(--color-gray-1);
       }
       h1,
       h2,
@@ -104,7 +105,7 @@
       .container {
         max-width: 144rem;
         margin: 0 auto;
-        background-color: deeppink;
+        /* background-color: deeppink; */
         padding: var(--spacing-gutter-medium);
       }
 
@@ -128,6 +129,34 @@
       .main-logo-icon {
         margin-right: 2rem;
       }
+
+      /* search */
+      .search-form {
+        position: relative;
+        border: 0.2rem solid var(--color-primary-dark);
+        max-width: 64rem;
+        margin: 0 auto;
+        border-radius: 0.4rem;
+      }
+
+      .search-input,
+      .search-button {
+        padding: 1rem;
+        border: none;
+        background: none;
+        outline: none;
+      }
+      .search-input {
+        width: 100%;
+        padding-right: 4rem;
+      }
+
+      .search-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      /* search */
     </style>
   </head>
 </html>
