@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #269fe6;
-  --color-primary-hover: #2086c2;
+  --color-primary: #269fe6 ;
+  --color-primary-hover: #2086c2 ;
   --color-primary-dark: #13141f;
   --color-primary-dark-hover: #212336;
   --color-primary-light: #d4ecfa;
@@ -56,6 +56,7 @@ body {
   font-size: 1.6rem;
   font-family: var(--font-primary);
   background-color: var(--color-gray-1);
+
 }
 
 h1,

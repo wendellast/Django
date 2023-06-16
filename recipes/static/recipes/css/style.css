@@ -55,8 +55,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--font-primary);
-  /* background-color: var(--color-gray-1); */
-  background-color: deeppink;
+  background-color: var(--color-gray-1);
+
 }
 
 h1,
@@ -178,6 +178,7 @@ h6 {
 
 .recipe-list-item {
   max-width: 64rem;
+  height: fit-content;
 }
 
 .recipe-list-item:hover {
@@ -191,6 +192,11 @@ h6 {
   padding-bottom: 2rem;
 }
 
+
+.recipe-title-container a {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
 .recipe-author {
   padding: 0 var(--spacing-gutter-medium);
 }
